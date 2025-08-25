@@ -62,7 +62,7 @@
 						<!-- Single Box -->
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="about-captione">
-								<h6 class="text-blue"><?php calculator;(5 , 6,"/")?></h6>
+								<h6 class="text-blue">></h6>
 								<h2>Let's Short Story About Workoo<br>Job Service.</h2>
 								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure undertakes laborious</p>
 								<ul class="lists-3 mt-3">
@@ -357,7 +357,7 @@
 				</div>
 			</div>
 			<!-- Upload Resume -->		
-
+		<img src="../assets/img/about-bg.jpg" alt="">
 		</div>
 		<!-- ============================================================== -->
 		<!-- End Wrapper -->

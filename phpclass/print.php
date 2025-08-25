@@ -1,7 +1,7 @@
 <?php
 
-$email = $_GET['email'];
-$password = $_GET['pswd'];
+$email = $_POST['email'];
+$password = $_POST['pswd'];
 
 echo $email,$password;  
 
