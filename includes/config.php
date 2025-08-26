@@ -1,17 +1,17 @@
 
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "e-commerce";
-$conn = mysqli_connect($servername, $username, $password, $database,);
 
+$host = 'localhost';
+$db   = 'e-commerce';
+$user = 'root';
+$pass = '';
 
-if(!$conn){
-    echo "database connection erron";
-
-}else{
-    echo "database connected successfully";
+try {
+    $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+    echo "Connected successfully!";
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
 }
+
 ?>
