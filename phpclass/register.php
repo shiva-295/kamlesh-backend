@@ -14,4 +14,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(":password", $password);
     $stmt->bindParam(":phone", $phone);
     $stmt->execute();
+    header("Location: show-user-data.php");
 }
