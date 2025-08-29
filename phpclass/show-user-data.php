@@ -36,7 +36,7 @@ $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <td><?php echo $row['password'] ?></td>
                 <td><?php echo $row['phone'] ?></td>
                 <td>
-                    <a href="" class="btn btn-warning">Edit</a>
+                    <a href="edit-user.php?id=<?php echo $row['id']?>" class="btn btn-warning">Edit</a>
                     <a href="delete-user.php?id=<?php echo $row['id']?>" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
